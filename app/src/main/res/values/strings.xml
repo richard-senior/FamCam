@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FamCam</string>
+    <string name="app_description">Create an AI training set of your family so you can spot them, or people who are not them!</string>
+    <string name="app_tagline">Family Recognition Training Data Collector</string>
+    
+    <!-- Shortcuts -->
+    <string name="shortcut_quit_short">Quit</string>
+    <string name="shortcut_quit_long">Quit FamCam</string>
+    
+    <!-- Notifications -->
+    <string name="notification_title">FamCam Running</string>
+    <string name="notification_text">Collecting training data in background</string>
+    
+    <!-- Settings -->
+    <string name="settings_title">FamCam Settings</string>
+    <string name="settings_auto_save">Auto-save enabled</string>
+    <string name="settings_max_images">Max images per period</string>
+    <string name="settings_period_hours">Period (hours)</string>
+    <string name="settings_confidence">Confidence threshold (%)</string>
+    <string name="settings_frame_rate">Frame rate (FPS)</string>
+</resources>
