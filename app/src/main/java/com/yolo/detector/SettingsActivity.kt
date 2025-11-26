@@ -27,7 +27,7 @@ class SettingsActivity : AppCompatActivity() {
         const val KEY_CLASSES = "classes"
         
         // Defaults
-        const val DEFAULT_MAX_IMAGES = 64  // 8 per hour for 8 hours
+        const val DEFAULT_MAX_IMAGES = 200
         const val DEFAULT_PERIOD_HOURS = 8
         const val DEFAULT_CONFIDENCE = 70
         const val DEFAULT_FRAME_RATE = 3

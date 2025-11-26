@@ -98,7 +98,7 @@ class MainActivity : AppCompatActivity() {
         private const val KEY_LAST_AUTO_SAVE = "lastAutoSaveTime"
         
         // Debug mode: set to true for testing (saves every 10 seconds)
-        private const val DEBUG_MODE = true
+        private const val DEBUG_MODE = false
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
