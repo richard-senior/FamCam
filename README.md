@@ -12,13 +12,31 @@
 
 FamCam is an Android camera app that automatically captures and labels photos of your family members and pets, creating perfectly formatted training datasets for YOLO object detection models.
 
+Open FamCam then leave your phone around your house or pointing into your garden etc.
+FamCam recognises humans, cats and dogs, and when it does so it it will save an image complete
+with 'bounding box' information about where in the image that human/dog/cat was seen.
+
+To train yolo nano models you'll probably need a few hundred images of each person/pet in
+differing light conditions and from differing angles
+
+When you think you've collected enough images, you can modify the setting to add the name of the things you've captured
+and then use the labelling feature to label the bounding box with the correct person/animal.
+
+When all your images are correctly annotated, you can export the whole thing in a zip file to your Downloads directory
+from where you can send it to your PC for training.
+
+For information about how to use the training data, see "Ultralytics, Yolo Nano"
+
+Once your model is trained, you can now mount a camera anywhere and use your model to see who's in your house, and
+perhaps, who shouldn't be!
+
 ## Features
 
-✨ **Automated Photo Capture** - Detects people and pets, saves images automatically  
-🏷️ **Easy Labeling** - Touch bounding boxes to assign names  
-📦 **YOLO Export** - One-tap export to standard YOLO training format  
-⚡ **Power Mode** - Run 24/7 with minimal battery drain  
-🎯 **Smart Detection** - Built-in YOLOv8 Nano model  
+✨ **Automated Photo Capture** - Detects people and pets, saves images automatically
+🏷️ **Easy Labeling** - Touch bounding boxes to assign names
+📦 **YOLO Export** - One-tap export to standard YOLO training format
+⚡ **Power Mode** - Run 24/7 with minimal battery drain
+🎯 **Smart Detection** - Built-in YOLOv8 Nano model
 
 ## Screenshots & Usage
 
@@ -73,7 +91,7 @@ Review captured images and assign specific identities to detected objects.
 
 **Controls:**
 - **◀ Previous** - View previous image
-- **▶ Next** - View next image  
+- **▶ Next** - View next image
 - **📦 Export** - Export all labeled images as a YOLO-format dataset ZIP file
 - **🗑️ Delete** - Remove the current image
 - **✕ Back** - Return to main screen
